@@ -1,0 +1,66 @@
+.messagebox {
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  padding: 7px 20px;
+  color: white;
+  max-width: 60%;
+  display: inline-block;
+}
+
+.messagetext {
+  width: 100%;
+  font-size: 1em;
+  word-wrap: break-word;
+  display: inline-block;
+}
+
+.messageContainer {
+  display: flex;
+  margin-top: 4px;
+}
+
+.sendername {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: rgb(176, 56, 76);
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+  flex-direction: column;
+  display: inline-block;
+  width: 100%;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: #22a4a4;
+}
+
+.backgroundDark {
+  background: #22a4a4;
+}
+
+.backgroundLight {
+  background: #f3f3f3;
+}
+@media screen and (max-width: 720px) {
+  .messagetext {
+    font-size: 12px;
+  }
+  .sendername {
+    font-size: 12px;
+  }
+}
